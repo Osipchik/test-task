@@ -16,5 +16,8 @@ export default defineConfig({
       include: '**/*.svg',
     }),
   ],
+  build: {
+    outDir: './docs',
+  },
   base: '/test-task/',
 })
