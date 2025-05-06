@@ -1,0 +1,14 @@
+.asideLink {
+  padding-block: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.asideLink:link {
+  text-decoration: none;
+}
+
+.active {
+  background-color: var(--color-primary-bg);
+  color: var(--color-primary);
+}

@@ -1,0 +1,31 @@
+:root {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --white: #FFF;
+  --color-primary: #2665F0;
+  --color-primary-bg: #3758F90D;
+  --color-secondary: #637381;
+  --color-border: #DFE4EA;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}

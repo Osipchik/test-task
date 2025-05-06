@@ -1,0 +1,27 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0;
+  border-radius: 6px;
+  min-height: 25px;
+  min-width: 25px;
+  font-family: 'Montserrat', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--color-secondary);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.active {
+  color: var(--white);
+  background-color: var(--color-primary);
+}
+
+.button:disabled {
+  cursor: unset;
+  background-color: #F3F4F6;
+}

@@ -1,0 +1,22 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-block: 10px;
+
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--color-secondary);
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.toggle::-webkit-details-marker {
+  display: none;
+}
+
+.toggleIcon {
+  margin-inline: auto 30px;
+}

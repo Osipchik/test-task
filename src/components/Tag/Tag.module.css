@@ -1,0 +1,17 @@
+.tag {
+  padding: 5px 14px;
+  border-radius: 30px;
+
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.primary {
+  background-color: #DBE5FE;
+  color: var(--color-primary);
+}
+
+.success {
+  background-color: #007E601A;
+  color: #007E60;
+}

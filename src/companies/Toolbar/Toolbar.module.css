@@ -1,0 +1,10 @@
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.input {
+  width: 363px;
+}
